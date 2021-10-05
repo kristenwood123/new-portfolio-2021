@@ -137,19 +137,6 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-.nav-links {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  z-index: -2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 .nav-links.open {
   position: absolute;
   width: 100%;
@@ -160,7 +147,24 @@ nav ul li a:hover::after {
   align-items: center;
   justify-content: center;
   text-align: center;
-  display: none;
+  visibility: hidden;
+}
+
+.nav-links {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 100%;
+  left: 0;
+  z-index: -2;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
 }
 
 .lite-text {
