@@ -11,7 +11,9 @@ export const SkillsSect = styled.section`
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 80%;
+    margin-bottom: -250px;
+    padding-bottom: 100px;
   }
 
   .skills__item {
