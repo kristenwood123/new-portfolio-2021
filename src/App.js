@@ -5,6 +5,7 @@ import './index.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <Skills/>
+      <Projects/>
     </>
   )
 }

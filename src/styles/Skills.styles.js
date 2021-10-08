@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import wave from '../../public/images/wave.svg'
 
 export const SkillsSect = styled.section`
   background: #fff;
@@ -14,6 +15,7 @@ export const SkillsSect = styled.section`
     max-width: 80%;
     margin-bottom: -250px;
     padding-bottom: 100px;
+    backgru
   }
 
   .skills__item {
